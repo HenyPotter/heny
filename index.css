@@ -67,6 +67,19 @@ section .title span a::after {
     animation: linkAfter 0.5s 1s ease both;
 }
 
+#social {
+    color: #efefef;
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#link {
+    color: #f7ca18;
+}
+
 @-moz-keyframes pop {
     0% {
         transform: translateY(100%);
@@ -173,18 +186,4 @@ section .title span a::after {
     100% {
         width: 30px;
     }
-}
-
-#social {
-    color: #efefef;
-    font-family: 'Open Sans', sans-serif;
-    position: absolute;
-    top: 400px;
-    width: 100%;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-#link {
-    color: #f7ca18;
 }
